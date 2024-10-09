@@ -1,0 +1,49 @@
+.contact-element {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+/* Logo */
+/*  */
+.contact-logo {
+    font-size: 80px;
+}
+
+.contact-logo-link {
+    color: var(--text-color-primary);
+}
+
+.contact-logo-link:hover {
+    color: var(--text-color-ternary);
+}
+
+/* Link */
+/*  */
+.contact-link {
+    color: var(--text-color-primary);
+}
+
+.contact-link:hover {
+    color: var(--text-color-ternary);
+}
+
+/* Logo colors */
+/*  */
+.contact-logo-link--linkedin {
+    color: var(--color-socials-linkedin);
+}
+
+.contact-logo-link--github {
+    color: var(--color-socials-github);
+}
+
+.contact-logo-link--mail {
+    color: var(--color-socials-mail);
+}
+
+.contact-logo-link--itchio {
+    color: var(--color-socials-itchio);
+}

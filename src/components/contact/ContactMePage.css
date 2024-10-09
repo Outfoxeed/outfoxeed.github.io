@@ -1,0 +1,18 @@
+.contacts-container {
+    margin: 89px 0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contact-element {
+    margin: 30px 0;
+}
+
+@media screen and (max-width: 760px) {
+    .contacts-container {
+        flex-direction: column;
+    }
+}

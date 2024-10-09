@@ -1,0 +1,12 @@
+.projects-container {
+    margin: 50px 5%;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project-tile {
+    width: 25%;
+}

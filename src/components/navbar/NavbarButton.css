@@ -1,0 +1,42 @@
+.navbar-button {
+    background: none;
+    border: none;
+
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    height: 100%;
+    
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.2rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar-button:hover {
+    border-bottom: 4px solid #fff;
+    transition: all 0.2s ease-out;
+}
+
+.navbar-button--selected {
+    background-color: var(--color-bg-navbar-button-selected);
+}
+
+@media screen and (max-width: 960px) {
+    .navbar-button {
+        text-align: center;
+        padding: 2rem;
+        width: 100%;
+        display: table;
+    }
+
+    .navbar-button:hover {
+        background-color: #fff;
+        color: #242424;
+        border-radius: 0;
+    }
+}

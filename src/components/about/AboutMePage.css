@@ -1,0 +1,76 @@
+.about-me-page {
+    color: var(--text-color-primary);
+}
+
+.about-me-container {
+    margin: 20px 10%;
+
+
+}
+
+/* Info */
+/*  */
+.about-me-info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-me-info {
+    width: 70%;
+    text-align: center;
+}
+
+.about-me-info > p {
+    margin-top: 20px;
+}
+
+.about-me-info > p > a {
+    color: var(--text-color-primary);
+    text-decoration: underline;
+}
+
+.about-me-info > p > a:hover {
+    color: var(--text-color-ternary);
+}
+
+/* CVs */
+/*  */
+.about-me-cv-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 50px;
+}
+
+.about-me-cv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-me-cv > img {
+    margin: 30px 50px;
+
+    object-fit: contain;
+    width: 30vw;
+}
+
+
+@media screen and (max-width: 960px) {
+    .about-me-info {
+        width: 100%;
+    }
+    
+
+    .about-me-cv {
+        flex-direction: column;
+    }
+    
+    .about-me-cv > img {
+        margin: 15px 50px;
+        width: 100%;
+    }
+}

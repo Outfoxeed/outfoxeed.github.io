@@ -1,0 +1,48 @@
+.association-page {
+    color: var(--text-color-primary);
+    text-align: center;
+}
+
+/* Content */
+/*  */
+.content-container {
+    margin: 30px 10%;
+}
+
+/* Content row */
+/*  */
+.content-row {
+    padding: 10px;
+    margin-top: 50px;
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+.content-row > div {
+    width: 40%;
+}
+
+/* Content row image */
+/*  */
+.content-image-container > img{
+    max-width: 100%;
+    height: auto;
+}
+
+/* Content row texts */
+/*  */
+.content-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.content-text-container > p > a {
+    color: var(--text-color-primary);
+    text-decoration: underline;
+}
+
+.content-text-container > p > a:hover {
+    color: var(--text-color-ternary);
+}

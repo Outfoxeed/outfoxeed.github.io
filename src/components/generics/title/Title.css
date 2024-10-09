@@ -1,0 +1,11 @@
+.title-container {
+    background: url('/public/videos/bg.gif') center center/cover no-repeat;
+    padding: 100px 0;
+}
+
+.title {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 80px;
+    color: var(--text-color-primary);
+    text-align: center;
+}

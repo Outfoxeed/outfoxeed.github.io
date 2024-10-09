@@ -1,0 +1,50 @@
+.socials-bar {
+    display: flex;
+    flex-direction: column;
+
+    margin: 50px 0;
+}
+
+.socials-icons-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.social-icon-wrapper {
+    background-color: var(--bg-color-primary);
+    border-radius: 20px;
+    margin: 0 20px;
+}
+.social-icon-wrapper:hover {
+    background-color: #888;
+}
+
+.social-icon-wrapper i, .itch {
+    margin: 10px;
+    font-size: 90%;
+}
+
+.mail {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 16px;
+    color: var(--text-color-ternary);
+}
+
+.fab, .fa {
+    color: #202020;
+}
+
+.social-icon-wrapper:hover > .fa-linkedin {
+    color: var(--color-socials-linkedin);
+}
+.social-icon-wrapper:hover > .fa-github {
+    color: var(--color-socials-github);
+}
+.social-icon-wrapper:hover > .fa-itch-io {
+    color: var(--color-socials-itchio);
+}
+.social-icon-wrapper:hover > .fa-envelope {
+    color: var(--color-socials-mail);
+}

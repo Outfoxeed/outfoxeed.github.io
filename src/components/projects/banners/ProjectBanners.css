@@ -1,0 +1,29 @@
+ul {
+    list-style-type: none;
+}
+
+.project-banners {
+    background: linear-gradient(to top,
+    var(--bg-color-ternary) 0%,
+    rgb(20, 20, 20, 255) 80%,
+    rgb(10, 10, 10, 255));
+
+    padding: 50px 0;
+}
+
+.project-banners-container {
+    background-color: var(--bg-color-ternary);
+    
+    padding: 20px 0;
+
+    margin: 0 10%;
+    border-radius: 10px;
+}
+
+.project-banner:first-child {
+    margin-top: 0;
+}
+
+.project-banner:last-child {
+    margin-bottom: 0;
+}

@@ -1,0 +1,111 @@
+/* Containers */
+.project-banner {
+    display: flex;
+    padding: 10px;
+    margin: 50px;
+    justify-content: space-around;
+    align-items: center;
+
+    color: var(--text-color-ternary);
+}
+
+.project-banner--default {
+    flex-direction: row;
+}
+
+.project-banner--reversed {
+    flex-direction: row-reverse;
+}
+
+.project-banner--default > div:first-child {
+    margin-right: 150px;
+}
+
+.project-banner--reversed > div:last-child {
+    margin-right: 150px;
+}
+
+.image-container > a {
+    width: 30vw;
+}
+
+.image-container > a > img {
+    width: inherit;
+    cursor: pointer;
+}
+
+.image-container > a > img:hover {
+    padding: 1px;
+    border-radius: 5px;
+    border: solid white 1px;
+}
+
+.description-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.description-container > div {
+    margin-bottom: 30px;
+}
+
+/* Project Title */
+.project-title > a {
+    color: var(--text-color-primary);
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+.project-title > a:hover {
+    color: var(--text-color-ternary);
+    cursor: pointer;
+}
+
+/* Links */
+.links-container {
+    display: flex;
+    justify-content: center;
+}
+
+.link-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.link-container > * {
+    margin-left: 5px;
+}
+
+.link-container:last-child > p {
+    display: none;
+}
+
+.link-container > a {
+    color: var(--text-color-ternary)
+}
+
+.link-container a:hover {
+    color: var(--text-color-primary)
+}
+
+/* Infos */
+.role {
+    font-style: bold;
+    font-size: 20px;
+}
+
+.short-desc {
+    font-size: 12px;
+}
+
+@media screen and (max-width: 960px) {
+    .project-banner--default > div:first-child {
+        margin-right: 70px;
+    }
+    
+    .project-banner--reversed > div:last-child {
+        margin-right: 70px;
+    }
+}

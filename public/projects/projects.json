@@ -1,0 +1,178 @@
+{
+    "justdance":{
+        "id": "justdance",
+        "title": "Just Dance",
+        "splashart": "/projects/justdance/splashart.png",
+        "hoverSplashart": "/projects/justdance/splashart-hover.png",
+        "firstCover": {
+            "image": "/projects/justdance/splashart.png"
+        },
+        "tag": "Professional project",
+        "myWork": {
+            "role": "Gameplay Programmer Assistant",
+            "achievements": [
+                {
+                    "name": "",
+                    "composite": [
+                        "Systems and UI linked to the Custom Playlists",
+                        "Systems and UI linked to the calories counter",
+                        "Systems and UI linked to the 'Random Play' proposing random songs to the player",
+                        "Prototyping of experimental subjects/features",
+                        "UI component reacting to the music's rythm and tempo",
+                        "Quality of Life subjects development",
+                        "Codebase refactoring/cleaning",
+                        "Stabilization"
+                    ]
+                }
+            ]
+        },
+        "engine": "Unity",
+        "team": {
+            "name": "Ubisoft Paris",
+            "shortDesc": "Team of ~100",
+            "size": "~100"
+        },
+        "period": "Since January 2023",
+        "shortDesc": "Rassemblez vos amis et votre famille pour vous déhancher tous ensemble sur Just Dance ! Que ce soit pour faire la fête, faire du sport ou passer un bon moment en famille.",
+        "medias": [
+            "/projects/justdance/0.jpeg",
+            "/projects/justdance/0.jpeg",
+            "/projects/justdance/0.jpeg",
+            "/projects/justdance/0.jpeg",
+            "/projects/justdance/0.jpeg",
+            "/projects/justdance/0.jpeg",
+            "/projects/justdance/0.jpeg"
+        ],
+        "medias2": [
+            "/projects/justdance/0.png",
+            "/projects/justdance/0.png",
+            "/projects/justdance/0.png",
+            "/projects/justdance/0.png",
+            "/projects/justdance/0.png"
+        ]
+    },
+    "kanpeki":{
+        "id": "kanpeki",
+        "title": "Kanpeki - Demo",
+        "splashart": "/projects/kanpeki/splasharts/Kanpeki Splashart.png",
+        "hoverSplashart": "/projects/kanpeki/splasharts/kanpeki demo coming.jpg",
+        "firstCover": {
+            "youtube": "https://www.youtube.com/embed/H1alabFY50U?si=cd4h2kMH7aZvzp5t"
+        },
+        "tag": "Personal Project",
+        "links": {
+            "steam": "https://store.steampowered.com/app/1864720/Kanpeki/",
+            "itchio": "https://wiloux.itch.io/kanpeki"
+        },
+        "myWork": {
+            "role": "Gameplay / Tool Programmer",
+            "achievements": [
+                {
+                    "name": "Gameplay",
+                    "composite": [
+                        "Save System",
+                        "Enemy Pool Manager",
+                        "Enemies AI",
+                        "Dialogues",
+                        "Rooms Management"
+                    ]
+                },
+                {
+                    "name": "Tool",
+                    "composite": [
+                        "Data Editor Windows",
+                        "Implementation Tool Windows",
+                        "Save Tool Window",
+                        "Custom Hierarchy Outliner (https://x.com/streetlightteam/status/1475242731677040644)"
+                    ]
+                }
+            ]
+        },
+        "engine": "Unity",
+        "team": {
+            "name": "Streetlight Studio",
+            "url": "https://x.com/streetlightteam",
+            "shortDesc": "Team of 11",
+            "size": "11-13",
+            "members": [
+                "3 Game Designers",
+                "1 Writer",
+                "2 Programmers",
+                "1 Sound Designer",
+                "3 Voice Actress",
+                "2-4 Artists (2D/3D)",
+                "1 Communication Manager"
+            ]
+        },
+        "period": "1 year and 4 months",
+        "shortDesc": "3D Horror Game inspired from the firsts Resident Evil and Silent Hill",
+        "releaseDate": "13/05/2022",
+        "medias": [
+            "/projects/kanpeki/Kanpeki tunnel.gif",
+            "/projects/kanpeki/Kanpeki hallucination + heal.gif",
+            "/projects/kanpeki/Kanpeki cat.jpg",
+            "/projects/kanpeki/Kanpeki run.gif",
+            "/projects/kanpeki/Kanpeki discussion.gif",
+            "/projects/kanpeki/Kanpeki fight.gif",
+            "/projects/kanpeki/Kanpeki inventory.gif"
+        ],
+        "medias2": [
+            "/projects/kanpeki/tools/Kanpeki Data Editor1.png",
+            "/projects/kanpeki/tools/Kanpeki Data Editor2.png",
+            "/projects/kanpeki/tools/Kanpeki Implementation 1.png",
+            "/projects/kanpeki/tools/Kanpeki Implementation 2.png",
+            "/projects/kanpeki/tools/Kanpeki Save Tool.png"
+        ]
+    },
+    "alinco":{
+        "id": "alinco",
+        "title": "Ali'N Co",
+        "splashart": "/projects/alinco/splasharts/Ali'N Co - SplashArt Screenshot.png",
+        "hoverSplashart": "/projects/alinco/splasharts/Ali'N Co - Movements Screenshot.png",
+        "firstCover": {
+            "image": "/projects/alinco/splasharts/Ali'N Co - SplashArt Screenshot.png"
+        },
+        "tag": "Student Project: \"Couch Game\"",
+        "links": {
+            "itchio": "https://neoavantis.itch.io/ali-n-co"
+        },
+        "myWork": {
+            "role": "Lead Programmer",
+            "achievements": [
+                {
+                    "name": "",
+                    "composite": [
+                        "Management of Game Programmers: backlog, task distribution, pair programming, etc...",
+                        "Waves Manager and Events spawns",
+                        "Grab and throw mechanic",
+                        "Box passes detection",
+                        "Boxes' objects physics"
+                    ]
+                }
+            ]
+        },
+        "engine": "Unity",
+        "team": {
+            "shortDesc": "Team of 12",
+            "size": "12",
+            "members": [
+                "4 Gameplay Programmers",
+                "4 Game Designers",
+                "2 Game Artists",
+                "2 Sound Designer"
+            ]
+        },
+        "period": "2 months",
+        "shortDesc": "Play as an unreliable space delivery crew, organizing a dubious cargo. Increase your profit by collecting and sorting packages, make passes to have more valuable packages, and do all of that while trying to control yourself in 0 gravity. But beware of the space krakens, or don't get sucked into the vacuum of space…",
+        "releaseDate": "16/12/2022",
+        "medias": [
+            "/projects/alinco/Ali'nCo - Movements.gif",
+            "/projects/alinco/Ali'nCo - Wave End Feedbacks.gif",
+            "/projects/alinco/Ali'nCo - Box Steal.gif",
+            "/projects/alinco/Ali'nCo - Boxes.gif",
+            "/projects/alinco/Ali'nCo - Grab.gif",
+            "/projects/alinco/Ali'nCo - Alien.gif",
+            "/projects/alinco/Ali'nCo - PowerFailure.gif"
+        ]
+    }
+}

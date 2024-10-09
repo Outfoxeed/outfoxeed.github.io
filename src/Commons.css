@@ -1,0 +1,19 @@
+* {
+    --text-color-primary: #fff;
+    --text-color-secondary: #242424;
+    --text-color-ternary: #888;
+
+    --bg-color-primary: #D9D9D9;
+    --bg-color-secondary: #000;
+    --bg-color-ternary: #242424;
+
+    --color-tile-border: #242424;
+    --color-tile-hover-border: #808080;
+
+    --color-bg-navbar-button-selected: #757575;
+
+    --color-socials-linkedin: #0A66C2;
+    --color-socials-github: #000;
+    --color-socials-itchio: #fa5c5c;
+    --color-socials-mail: #127CD6;
+}

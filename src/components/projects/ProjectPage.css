@@ -1,0 +1,157 @@
+.project-page {
+    color: var(--text-color-primary);
+    padding-top: 50px;
+
+    margin: 0 15%;
+}
+
+.project-title {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+/* First Cover */
+/*  */
+.first-cover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+}
+
+.first-cover-image {
+    width: 840px;
+}
+
+/* Icons */
+/*  */
+.icons-links, .icons-engine {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    margin: 15px 0;
+}
+
+
+.icons-links > a {
+    margin-left: 80px;
+}
+.icons-links > a:only-child {
+    margin-left: 0px;
+}
+
+.icons-link-steam {
+    width: 125px;
+}
+.icons-link-itchio {
+    width: 200px;
+}
+.icons-engine-unity {
+    width: 80px;
+}
+
+/* Info */
+/*  */
+.tag {
+    font-size: 30px;
+    text-transform: uppercase;
+
+    padding: 0px 10px;
+    margin: 20px 0;
+
+    border: solid #fff 1px;
+    border-radius: 3px;
+
+    width: auto;
+}
+
+.info > i {
+    font-size: 20px;
+    color: var(--text-color-ternary);
+    font-style: normal;
+}
+
+.info > b {
+    font-size: 15px;
+}
+
+/* My Work */
+/*  */
+.my-work {
+    padding: 0px 10px 10px 10px;
+    margin: 20px 0;
+
+    border: solid #fff 1px;
+    border-radius: 3px;
+}
+
+.my-work-role > b {
+    font-size: 30px;
+}
+
+.my-work-achievement {
+    margin-bottom: 20px;
+}
+
+.my-work-achievement:last-child {
+    margin-bottom: 0;
+}
+
+.my-work-achievement > p {
+    font-size: 20px;
+    color: var(--text-color-ternary);
+}
+
+.my-work-achievement > ul > li {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+/* Team */
+/*  */
+.team {
+    margin: 20px 0;
+}
+.team-member {
+    color: #606060;
+}
+
+/* Medias */
+/*  */
+.medias {
+    margin: 50px 0 20px 0;
+}
+
+.medias-title {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.medias1, .medias2 {
+    width: inherit;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.medias1 {
+    margin-top: 20px;
+}
+.media {
+    width: 40%;
+    max-height: 900px;
+
+    margin: 20px;
+}
+
+
+/* Size adjustments */
+/*  */
+@media screen and (max-width: 960px) {
+    .project-page {
+        margin: 0 5%;
+    }
+}

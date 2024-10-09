@@ -1,0 +1,22 @@
+.project-tile {
+    margin: 15px 15px;
+    padding: 10px 10px 50px 10px;
+
+    color: var(--text-color-primary);
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    border: solid 2px var(--color-tile-border);
+    border-radius: 3px;
+}
+
+.project-tile:hover {
+    border-color: var(--color-tile-hover-border);
+}
+
+.project-tile-cover {
+    width: 100%;
+}
