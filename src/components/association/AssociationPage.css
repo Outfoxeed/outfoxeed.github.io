@@ -46,3 +46,13 @@
 .content-text-container > p > a:hover {
     color: var(--text-color-ternary);
 }
+
+@media screen and (max-width: 960px) {
+    .content-row {
+        flex-direction: column-reverse;
+    }
+
+    .content-row > div {
+        width: 100%;
+    }
+}

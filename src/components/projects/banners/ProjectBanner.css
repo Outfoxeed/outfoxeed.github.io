@@ -101,11 +101,27 @@
 }
 
 @media screen and (max-width: 960px) {
+    .project-banner--default {
+        flex-direction: column;
+    }
+    
+    .project-banner--reversed {
+        flex-direction: column;
+    }
+
     .project-banner--default > div:first-child {
-        margin-right: 70px;
+        margin-right: 0;
     }
     
     .project-banner--reversed > div:last-child {
-        margin-right: 70px;
+        margin-right: 0;
+    }
+
+    .description-container > div:first-of-type {
+        margin-bottom: 0px;
+    }
+
+    .image-container > a {
+        width: 100%;
     }
 }

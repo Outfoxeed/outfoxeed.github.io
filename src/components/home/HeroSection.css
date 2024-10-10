@@ -62,12 +62,12 @@ video {
 
 @media screen and (max-width: 768px) {
   .hero-container > h1 {
-    font-size: 50px;
+    font-size: 10vw;
     margin-top: 50px;
   }
-
+  
   .hero-container > h2 {
-    font-size: 20px;
+    font-size: 6vw;
   }
 
   .hero-btns {
@@ -79,8 +79,15 @@ video {
     display: block;
     text-decoration: none;
   }
+}
 
+@media screen and (max-width: 320px) {
   .btn {
-    width: 100%;
+    font-size: 5vw;
+    padding: 4px 10px;
+  }
+
+  .mail {
+    font-size: 5vw;
   }
 }
