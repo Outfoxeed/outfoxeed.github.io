@@ -30,12 +30,12 @@ export default function ProjectPage({ projectsData }) {
                 {projectData.links && 
                     <div className="icons-links">
                         {projectData.links.steam &&
-                            <a href={projectData.links.steam} target="_blank">
+                            <a href={projectData.links.steam} target="_blank" rel="noreferrer">
                                 <img className="icons-link-steam" src="/images/icons/steam-icon.png" alt="" />
                             </a>
                         }
                         {projectData.links.itchio &&
-                            <a href={projectData.links.itchio} target="_blank">
+                            <a href={projectData.links.itchio} target="_blank" rel="noreferrer">
                                 <img className="icons-link-itchio" src="/images/icons/itchio-icon.png" alt="" />
                             </a>
                         }
@@ -63,9 +63,9 @@ export default function ProjectPage({ projectsData }) {
                     <>
                         <i>Links: </i>
                         {projectData.links.steam && 
-                            <b><a href={projectData.links.steam} target="_blank">Steam Page</a>, </b>}
+                            <b><a href={projectData.links.steam} target="_blank" rel="noreferrer">Steam Page</a>, </b>}
                         {projectData.links.itchio &&
-                            <b><a href={projectData.links.itchio} target="_blank">Itch.io Page</a></b>}
+                            <b><a href={projectData.links.itchio} target="_blank" rel="noreferrer">Itch.io Page</a></b>}
                     </>
                 }
             </div>
@@ -117,7 +117,7 @@ export default function ProjectPage({ projectsData }) {
                         <i>Team: </i>
                         <b>
                             {projectData.team.url
-                                ? <a href={projectData.team.url} target='_blank'>{projectData.team.name}</a>
+                                ? <a href={projectData.team.url} target='_blank' rel="noreferrer">{projectData.team.name}</a>
                                 : projectData.team.name
                             }
                         </b>

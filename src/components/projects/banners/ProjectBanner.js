@@ -31,7 +31,7 @@ export default function ProjectBanner({ projectData, reversed }) {
                             {projectData.links &&
                                 Object.entries(projectData.links).map(([key, value]) => (
                                     <div className="link-container">
-                                        <a href={value} target='_blank'>{key.charAt(0).toUpperCase()+key.slice(1)}</a>
+                                        <a href={value} target='_blank' rel="noreferrer">{key.charAt(0).toUpperCase()+key.slice(1)}</a>
                                         <p> - </p>
                                     </div>
                                 ))}

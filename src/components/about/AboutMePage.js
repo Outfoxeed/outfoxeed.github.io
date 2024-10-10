@@ -18,8 +18,8 @@ export default function AboutMePage() {
           <div className="about-me-info-container">
             <div className="about-me-info">
               <p>Studying Video Game Programming for 5 years at IIM (Institut de l'Internet et du Multimédia).</p>
-              <p>Former vice-president of <a href="https://www.instagram.com/leoindiegames/" target="_blank">LéoIndieGames</a>, a student association about game development.</p>
-              <p>Former Lead Programmer at <a href="https://x.com/streatlightteam/" target="_blank">Streetlight Studio</a>, where we released the demo of <Link to="/project/kanpeki" target="_blank">Kanpeki on Steam</Link>.</p>
+              <p>Former vice-president of <a href="https://www.instagram.com/leoindiegames/" target="_blank" rel="noreferrer">LéoIndieGames</a>, a student association about game development.</p>
+              <p>Former Lead Programmer at <a href="https://x.com/streatlightteam/" target="_blank" rel="noreferrer">Streetlight Studio</a>, where we released the demo of <Link to="/project/kanpeki" target="_blank">Kanpeki on Steam</Link>.</p>
             </div>
             <div className="about-me-cv-container">
               <div className="about-me-cv-download">

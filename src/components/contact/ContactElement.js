@@ -8,6 +8,7 @@ export default function ContactElement({ children, linkName, logoClass, href }) 
             <div className={`contact-logo contact-logo--${linkName}`}>
                 <a href={href} 
                     target="_blank"
+                    rel="noreferrer"
                 >
                     <i className={`contact-logo-link contact-logo-link--${linkName} ${logoClass}`} />
                 </a>
@@ -16,6 +17,7 @@ export default function ContactElement({ children, linkName, logoClass, href }) 
                 <a className={`contact-link contact-link--${linkName}`} 
                     href={href} 
                     target="_blank"
+                    rel="noreferrer"
                 >
                     {children}
                 </a>
