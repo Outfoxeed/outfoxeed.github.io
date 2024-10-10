@@ -1,5 +1,5 @@
 import React from 'react'
-import { redirectDocument, useParams } from 'react-router-dom'
+import { useParams } from 'react-router-dom'
 import './ProjectPage.css'
 
 export default function ProjectPage({ projectsData }) {

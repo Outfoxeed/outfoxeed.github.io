@@ -1,6 +1,6 @@
 import React from 'react'
-import './AssociationPage.css'
 import Title from '../generics/title/Title'
+import './AssociationPage.css'
 
 export default function AssociationPage() {
   return (
