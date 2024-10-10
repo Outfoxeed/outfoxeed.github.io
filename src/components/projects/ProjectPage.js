@@ -21,7 +21,7 @@ export default function ProjectPage({ projectsData }) {
                      allowfullscreen></iframe>
                 }
                 {projectData.firstCover.image &&
-                    <img className="first-cover-image" src={projectData.firstCover.image} />
+                    <img className="first-cover-image" alt="" src={projectData.firstCover.image} />
                 }
             </div>
 
@@ -147,7 +147,7 @@ export default function ProjectPage({ projectsData }) {
                     <div className="medias1">
                         {projectData.medias.map(media => {
                             return (
-                                <img className="media media1" src={media} />
+                                <img className="media media1" alt="" src={media} />
                             )
                         })}
                     </div>
@@ -155,7 +155,7 @@ export default function ProjectPage({ projectsData }) {
                         <div className="medias2">
                             {projectData.medias2.map(media => {
                                 return (
-                                    <img className="media media2" src={media} />
+                                    <img className="media media2" alt="" src={media} />
                                 )
                             })}
                         </div>

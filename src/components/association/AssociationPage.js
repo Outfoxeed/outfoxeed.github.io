@@ -17,7 +17,7 @@ export default function AssociationPage() {
             <div className="content-image-container"><img src="/images/association/lig_logo.png" alt="Logo of the association" /></div>
           </li>
           <li className="content-row">
-            <div className="content-image-container"><img src="/images/association/lig_classes.jpg" alt="Picture of me during one of these live classes" /></div>
+            <div className="content-image-container"><img src="/images/association/lig_classes.jpg" alt="Me during one of these live classes" /></div>
             <div className="content-text-container">
               <p>During the year, we organize and make live classes on Unity for beginners</p>
               <p>We are also available all year for our members to give advices and help around game development</p>
@@ -32,10 +32,10 @@ export default function AssociationPage() {
                 2023: one team won the first prize for the "Best Game" category with <a href="https://koryme-nakxay.itch.io/a-contre-courant" target="_blank" rel="noreferrer">'À contre-courant'</a>
               </p>
             </div>
-            <div className="content-image-container"><img src="/images/association/lig_festival-92.jpg" alt="Picture of members of the association receiving the prize for the year 2021" /></div>
+            <div className="content-image-container"><img src="/images/association/lig_festival-92.jpg" alt="Members of the association receiving the prize for the year 2021" /></div>
           </li>
           <li className="content-row">
-            <div className="content-image-container"><img src="/images/association/lig_tournament.jpg" alt="Picture " /></div>
+            <div className="content-image-container"><img src="/images/association/lig_tournament.jpg" alt="Room full of people ready to play for the tournament" /></div>
             <div className="content-text-container">
               <p>Every year, we are organizing a tournament with cashprices called the LIG Tournament taking place on video games made inside of our association!</p>
               <p>The last edition I personally organized got 50 players in the same room competiting on network multiplayer games and on local multiplayer games</p>
