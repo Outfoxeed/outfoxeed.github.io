@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom';
 import './ProjectBanner.css'
 
 export default function ProjectBanner({ projectData, reversed }) {
@@ -12,19 +13,19 @@ export default function ProjectBanner({ projectData, reversed }) {
         {projectData &&
             <div className={`project-banner project-banner--${reversed ? "reversed" : "default"}`}>
                 <div className="image-container">
-                    <a href={href}>
+                    <Link to={href}>
                         <img src={checkImage} 
                         alt={projectData.title} 
                         onMouseEnter={() => setImageHovered(true)}
                         onMouseLeave={() => setImageHovered(false)}/>
-                    </a>
+                    </Link>
                 </div>
                 <div className="description-container">
                     <div>
                         <h2 className="project-title">
-                            <a href={href}>
+                            <Link to={href}>
                                 {projectData.title}
-                            </a>
+                            </Link>
                         </h2>
                         <div className="links-container">
                             {projectData.links &&

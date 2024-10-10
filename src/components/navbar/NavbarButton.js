@@ -1,5 +1,5 @@
 import React from 'react'
-import { useLocation } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 import './NavbarButton.css'
 
 export default function NavbarButton({
@@ -15,7 +15,7 @@ export default function NavbarButton({
 
     return (
         <>
-            <a href={checkHref} className='navbar-button-container'>
+            <Link to={checkHref} className='navbar-button-container'>
                 <button
                     className={`navbar-button navbar-button-${href}
                      navbar-button--${selectedState}`}
@@ -23,7 +23,7 @@ export default function NavbarButton({
                 >
                     {children}
                 </button>
-            </a>
+            </Link>
         </>
     )
 }

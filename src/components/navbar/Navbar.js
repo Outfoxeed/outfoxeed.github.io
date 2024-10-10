@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import { Button } from '../generics/Button';
-import { useLocation } from 'react-router-dom';
 import NavbarButton from './NavbarButton';
 import './Navbar.css';
 
@@ -66,17 +66,17 @@ function Navbar() {
             </li>
 
             <li>
-              <a
-                href='/contact-me'
+              <Link
+                to='/contact-me'
                 className='nav-links-mobile'
                 onClick={closeMobileMenu}
               >
                 Contact Me
-              </a>
+              </Link>
             </li>
           </ul>
           {navButtonsEnabled && 
-            <Button buttonStyle='btn--outline' href={'/contact-me'}>
+            <Button buttonStyle='btn--outline' href="/contact-me">
               Contact Me
             </Button>
           }
