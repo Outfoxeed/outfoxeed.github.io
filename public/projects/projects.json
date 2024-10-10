@@ -174,5 +174,80 @@
             "/projects/alinco/Ali'nCo - Alien.gif",
             "/projects/alinco/Ali'nCo - PowerFailure.gif"
         ]
+    },
+    "rps":{
+        "id": "rps",
+        "title": "Rock Paper Scissors Simulation",
+        "splashart": "/projects/rps/rps-2.png",
+        "hoverSplashart": "/projects/rps/rps-3.png",
+        "firstCover": {
+            "youtube": "https://www.youtube.com/embed/plOQ7n8VXNw?si=cRdlOZDvjr_XiXxZ"
+        },
+        "tag": "Personal Project",
+        "links": {
+            "itchio": "https://outfoxeed.itch.io/rock-paper-scissors-simulation"
+        },
+        "myWork": {
+            "role": "Programmer"
+        },
+        "engine": "Unity",
+        "team": {
+            "shortDesc": "Solo",
+            "size": "1"
+        },
+        "period": "48 hours",
+        "shortDesc": "Quickly made game simulating the battle between rocks, papers and scissors!",
+        "releaseDate": "02/2022",
+        "medias": [
+            "/projects/rps/rps-1.png",
+            "/projects/rps/rps-2.png",
+            "/projects/rps/rps-3.png",
+            "/projects/rps/rps-4.png",
+            "/projects/rps/rps-5.png"
+        ]
+    },
+    "megablackhole":{
+        "id": "megablackhole",
+        "title": "Mega Black Hole",
+        "splashart": "/projects/megablackhole/megablackhole-2.png",
+        "hoverSplashart": "/projects/megablackhole/megablackhole-1.png",
+        "firstCover": {
+            "image": "/projects/megablackhole/megablackhole.gif"
+        },
+        "tag": "Student Project",
+        "links": {
+            "itchio": "https://artyu.itch.io/mega-black-hole"
+        },
+        "myWork": {
+            "role": "Programmer",
+            "achievements": [
+                {
+                    "name": "",
+                    "composite": [
+                        "Entities manipulation",
+                        "Projectiles following defined patterns",
+                        "Data-driven definition of projectiles pattern (json)"
+                    ]
+                }
+            ]
+        },
+        "engine": "SFML C++",
+        "team": {
+            "shortDesc": "Team of 3",
+            "size": "3",
+            "members": [
+                "3 Programmers"
+            ]
+        },
+        "period": "2 weeks",
+        "shortDesc": "Dodge the different colored asteroids coming from the mega black hole as long as possible! To survive, your ship can change between two colors allowing it to pass through the obstacles of the same color as it. The project was entirely made in C++ using the SFML library!",
+        "releaseDate": "05/2022",
+        "medias": [
+            "/projects/megablackhole/megablackhole-1.png",
+            "/projects/megablackhole/megablackhole-2.png",
+            "/projects/megablackhole/megablackhole-menu.png",
+            "/projects/megablackhole/megablackhole.gif",
+            "/projects/megablackhole/megablackhole-json.png"
+        ]
     }
 }
