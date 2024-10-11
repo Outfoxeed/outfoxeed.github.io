@@ -12,16 +12,34 @@
             "role": "Gameplay Programmer Assistant",
             "achievements": [
                 {
-                    "name": "",
+                    "name": "Features",
                     "composite": [
                         "Systems and UI linked to the Custom Playlists",
                         "Systems and UI linked to the calories counter",
                         "Systems and UI linked to the 'Random Play' proposing random songs to the player",
                         "Prototyping of experimental subjects/features",
                         "UI component reacting to the music's rythm and tempo",
-                        "Quality of Life subjects development",
+                        "Quality of Life subjects development"
+                    ]
+                },
+                {
+                    "name": "In editor development tools",
+                    "composite": [
+                        "Tool to apply a chosen build profile in the editor",
+                        "Addition and maintenance of debug tools (shortcuts buttons, skip non essential menus of the game, ...)"
+                    ]
+                },
+                {
+                    "name": "Codebase",
+                    "composite": [
                         "Codebase refactoring/cleaning",
                         "Stabilization"
+                    ]
+                },
+                {
+                    "name": "Others",
+                    "composite": [
+                        "Official presentation of the calories counter in front of journalists"
                     ]
                 }
             ]
