@@ -8,8 +8,8 @@ function Home({ projectsData }) {
       <HeroSection />
       <ProjectBanners projects={[
         projectsData.justdance, 
-        projectsData.kanpeki,
-        projectsData.alinco
+        projectsData.dyingsun,
+        projectsData.kanpeki
         ]} /> 
     </>
   );

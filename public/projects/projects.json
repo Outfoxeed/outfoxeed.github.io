@@ -69,6 +69,78 @@
             "/projects/justdance/0.png"
         ]
     },
+    "dyingsun":{
+        "id": "dyingsun",
+        "title": "Dying Sun",
+        "splashart": "/projects/dyingsun/splasharts/splashart.png",
+        "hoverSplashart": "/projects/dyingsun/splasharts/hover_splashart.png",
+        "firstCover": {
+            "youtube": "https://www.youtube.com/embed/CwESTIYrCtk?si=c9xuKNH10NXcwN-E"
+        },
+        "tag": "Student Project",
+        "links": {
+            "steam": "https://store.steampowered.com/app/3444690/Dying_Sun/"
+        },
+        "myWork": {
+            "role": "Lead Programmer",
+            "achievements": [
+                {
+                    "name": "Player and cameras",
+                    "composite": [
+                        "Player movements (slide + speed management)",
+                        "Player's automatic camera giving a nice game feel",
+                        "Customizable cinematic cameras placeable in the world"
+                    ]
+                },
+                {
+                    "name": "Others",
+                    "composite": [
+                        "DearImGui integration in UnrealEngine for the main systems of the game",
+                        "Living creatures: sand sharks",
+                        "Mesh generation following splines: pipes and skeletons",
+                        "Timeloop system (lost feature)"
+                    ]
+                },
+                {
+                    "name": "Management",
+                    "composite": [
+                        "Programmers backlog management",
+                        "Task distribution",
+                        "Pair programming"
+                    ]
+                }
+            ]
+        },
+        "engine": "Unreal Engine 5",
+        "team": {
+            "shortDesc": "Team of 15",
+            "size": "15",
+            "members": [
+                "3 Programmers",
+                "4 Game Designers",
+                "4 Game Artists",
+                "2 Sound Designer",
+                "2 Producers"
+            ]
+        },
+        "period": "6 production months",
+        "shortDesc": "Discover an ancient ruin to deepen your understanding of the world’s history. Let yourself be soothed by a gliding flow, slide freely across the sands, and interact with artifacts from a long-lost civilization",
+        "releaseDate": "31/01/2025",
+        "medias": [
+            "/projects/dyingsun/dyingsun_controls_1.gif",
+            "/projects/dyingsun/dyingsun_controls_2.gif",
+            "/projects/dyingsun/dyingsun_automatic_camera.gif",
+            "/projects/dyingsun/dyingsun_cinematic_camera.gif",
+            "/projects/dyingsun/dyingsun_dearimgui_integration.png",
+            "/projects/dyingsun/dyingsun_skeleton_bridge.png"
+        ],
+        "medias2": [
+            "/projects/dyingsun/landscapes/dyingsun_plain.png",
+            "/projects/dyingsun/landscapes/dyingsun_landmark.png",
+            "/projects/dyingsun/landscapes/dyingsun_cave.png",
+            "/projects/dyingsun/landscapes/dyingsun_top_view.png"
+        ]
+    },
     "kanpeki":{
         "id": "kanpeki",
         "title": "Kanpeki - Demo",
