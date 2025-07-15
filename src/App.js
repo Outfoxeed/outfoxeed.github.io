@@ -3,19 +3,27 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import axios from "axios";
+
 import './App.css';
 import './Commons.css';
 
 import Root from "./Root";
 import Home from "./components/home/Home";
 import ProjectsLibrary from "./components/projects/library/ProjectsLibrary";
+import SidequestsLibrary from "./components/sidequests/SidequestsLibrary";
 import AboutMePage from "./components/about/AboutMePage";
-import AssociationPage from "./components/association/AssociationPage";
-import axios from "axios";
 import ProjectPage from "./components/projects/ProjectPage";
 import ContactMePage from "./components/contact/ContactMePage";
 
-const projectsData = (await axios.get("/projects/projects.json")).data; 
+const projectsData = (await axios.get("/projects/projects.json")).data;
+
+// Load sidequests database
+const sidequestsPathDatabase = (await axios.get("/sidequests/sidequests_db.json")).data.pathDatabase;
+const sidequestsData = []
+for (let i = 0; i < sidequestsPathDatabase.length; i++) {
+  sidequestsData.push((await axios.get(sidequestsPathDatabase[i])).data);
+} 
 
 const router  = createBrowserRouter([
   {
@@ -35,8 +43,8 @@ const router  = createBrowserRouter([
         element:<AboutMePage />
       },
       {
-        path:"/association",
-        element:<AssociationPage />
+        path:"/sidequests",
+        element:<SidequestsLibrary sidequestsData={sidequestsData} />
       },
       {
         path:"/contact-me",
