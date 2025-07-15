@@ -50,10 +50,10 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <NavbarButton 
-                href='/association'
+                href='/sidequests'
                 onClick={closeMobileMenu}
               >
-                Association
+                Side Quests
               </NavbarButton>
             </li>
             <li className='nav-item'>

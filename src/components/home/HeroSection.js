@@ -23,9 +23,9 @@ function HeroSection() {
           <Button
             className='btns'
             buttonSize='btn--large'
-            href="/association"
+            href="/sidequests"
           >
-            Association
+            Side Quests
           </Button>
           <Button
             className='btns'
