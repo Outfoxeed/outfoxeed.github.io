@@ -1,0 +1,86 @@
+.medicine-page {
+    color: var(--text-color-primary);
+    background-color: #ababab;
+    padding-top: 50px;
+
+    margin: 0 15%;
+}
+
+.medicine-title {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.medicine-page-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-grow: 0;
+}
+
+.spe-label-container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0;
+}
+
+.spe-choice-box {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    border: 2px solid black;
+    color: black;
+    margin-bottom: 2px;
+}
+
+.spe-choice-box-title {
+    width: 350px;
+}
+
+.spe-choice-box-checkbox-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 16px;
+}
+
+.spe-labels-container {
+    
+}
+
+.spe-label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+    border: 2px solid black;
+    color: black;
+    margin-bottom: 2px;
+}
+
+.spe-label > div > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.spe-label > div > div > p {
+    margin: 0px 16px;
+}
+
+.spe-state-default { background-color: whitesmoke; }
+.spe-state-like { background-color: rgb(29, 112, 21); }
+.spe-state-could { background-color: rgb(153, 132, 16); }
+.spe-state-never { background-color: rgb(102, 11, 11); }
+
+.rank-limit-pct { font-size: 12px; }
+
+/* Size adjustments */
+/*  */
+@media screen and (max-width: 960px) {
+    .medicine-page {
+        margin: 0 5%;
+    }
+}

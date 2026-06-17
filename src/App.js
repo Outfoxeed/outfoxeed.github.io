@@ -14,6 +14,7 @@ import AssociationPage from "./components/association/AssociationPage";
 import axios from "axios";
 import ProjectPage from "./components/projects/ProjectPage";
 import ContactMePage from "./components/contact/ContactMePage";
+import MedicinePage from "./components/medicine/MedicinePage";
 
 const projectsData = (await axios.get("/projects/projects.json")).data; 
 
@@ -45,6 +46,10 @@ const router  = createBrowserRouter([
       {
         path:"/project/:projectId",
         element:<ProjectPage projectsData={projectsData}/>
+      },
+      {
+        path:"/medicine",
+        element:<MedicinePage />
       }
     ],
   },
