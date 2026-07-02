@@ -91,18 +91,28 @@ export default function MedicinePage() {
     model = controller.getModel();
     setSeed(seed + 1)
   }, []);
+  const forceUpdate = () => { setSeed(seed + 1); }
 
   const onSpeChoiceBoxChanged = (speData, speState) => {
     controller.setSpeState(speData, speState)
-    setSeed(seed + 1);
+    forceUpdate();
   }
   const onStartYearChanged = e => {
     controller.setSelectedYears(parseInt(e.target.value), model.selectedMaxYear);
-    setSeed(seed + 1);
+    forceUpdate();
   }
   const onEndYearChanged = e => {
     controller.setSelectedYears(model.selectedMinYear, parseInt(e.target.value));
-    setSeed(seed + 1);
+    forceUpdate();
+  }
+
+  const onResetAllButtonClicked = e => {
+    controller.setAllSpeState(SpeState.Default);
+    forceUpdate();
+  }
+  const onChooseAllButtonClicked = e => {
+    controller.setAllSpeState(SpeState.Like);
+    forceUpdate();
   }
 
   return (
@@ -122,10 +132,16 @@ export default function MedicinePage() {
                 || "loading..." }
             </div>
             <div className="spe-choice-box-container">
-              { Object.entries(model.allSpeData).map(([key, value]) => (
-                  <SpeChoiceBox speData={value} onChanged={onSpeChoiceBoxChanged}/>
-                ))
-              }  
+              <div className="spe-choice-shortcut-buttons">
+                <button type="button" onClick={onResetAllButtonClicked}>Reset all</button>
+                <button type="button" onClick={onChooseAllButtonClicked}>Choose all</button>
+              </div>
+              <div>
+                { Object.entries(model.allSpeData).map(([key, value]) => (
+                    <SpeChoiceBox speData={value} onChanged={onSpeChoiceBoxChanged}/>
+                  ))
+                }  
+              </div>
             </div>
           </div>
           || "loading..."}

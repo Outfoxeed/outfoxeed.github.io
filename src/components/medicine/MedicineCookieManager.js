@@ -42,9 +42,12 @@ export class MedicineCookieManager {
     }
 
     getSpeState(speId) { return parseInt(this.speStates[speId]); }
-    setSpeState(speId, speState) { 
+    setSpeState(speId, speState, save = true) { 
         this.speStates = this.speStates.substring(0, speId) + speState.toString()[0] + this.speStates.substring(speId + 1);
-        setCookie(SPE_STATES_COOKIE_NAME, this.speStates); 
+        if (save) setCookie(SPE_STATES_COOKIE_NAME, this.speStates); 
+    }
+    saveSpeStates() {
+      setCookie(SPE_STATES_COOKIE_NAME, this.speStates);
     }
     
     getSelectedYears() {

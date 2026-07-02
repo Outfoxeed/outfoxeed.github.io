@@ -53,6 +53,14 @@ export class MedicinePageController {
         this._updateAllLimitRankAnalysis(this.model.allSpeData, selectedMinYear, selectedMaxYear);
     }
 
+    setAllSpeState(state) {
+        for (const speData of Object.values(this.model.allSpeData)) {
+            speData.state = state;
+            this.cookieManager.setSpeState(speData.config.id, speData.state);
+        }
+        this.cookieManager.saveSpeStates();
+    }
+
     setSpeState(speData, state) {
         speData.state = state;
         this.cookieManager.setSpeState(speData.config.id, speData.state);
